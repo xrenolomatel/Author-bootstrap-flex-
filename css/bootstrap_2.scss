@@ -16,14 +16,24 @@
 
 
 
-
+ // a & hover
  .navbar-nav>li>a {
    color: black;
  }
 .navbar-nav li a:hover {
      border-bottom: 5px solid #49cbcd;
+  overflow: hidden;
    }
 
+// END a & hover
+
+
+//carousel
+
+
+.carousel-inner{
+  overflow: hidden;
+}
 
 .carousel-caption {
   height: 85%;
@@ -69,12 +79,11 @@
   border-radius: 50%;
 }
 
-
-
-
 .carousel-indicators{
   display: none;
 }
+
+//END carousel
 
 
 
@@ -90,6 +99,54 @@ h2 {
 
 
 
+//PROBLEM THERE
+
+
+.page_with_photo{
+  width: 240px;
+  .block_1{
+    width: 200px;
+    height: 200px;
+    background-color: #eeeef0;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+    img:hover {
+      background: url("//..images/+.jpg");
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      overflow: hidden;
+    }
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+
+  h3 {
+    font-size: 22px;
+    text-align: center;
+    margin: 73px 0 13px;
+
+    span {
+      padding-top: 14px;
+      font-size: 14px;
+      text-align: center;
+      margin-bottom: 33px;
+    }
+  }
+  p{
+    width: 240px;
+    padding-bottom: 14px;
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 14px;
+
+  }
+}
 
 
 
@@ -109,32 +166,7 @@ h2 {
 
 
 
-//with photo
-
-
-//
-//img{
-//  width: 100%;
-//}
-
-
-//END with photo
 
 
 
 
-
-
-//For Nav 1
-
-//.col-xs-12, .col-sm-9, .col-md-4, .col-lg-6{
-//  background-color: #00ccff;
-//
-//}
-//
-//.col-xs-12, .col-sm-3, .col-md-8, .col-lg-6{
-//  background-color: #cc00ff;
-//
-//}
-
-// END nav 1
